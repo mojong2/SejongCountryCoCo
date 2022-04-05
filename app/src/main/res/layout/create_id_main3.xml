@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical"
+    tools:context=".CreateIdActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/line">
+
+        <TextView
+            android:id="@+id/back_button"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="뒤로가기"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="회원가입"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:gravity="left"
+            android:text="생년월일 입력"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="97dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp">
+
+        <View
+            android:layout_width="21dp"
+            android:layout_height="48dp" />
+
+        <EditText
+            android:id="@+id/year_input"
+            android:gravity="center"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:inputType="date"
+            android:maxLength="4"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:text="년"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/month_input"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:inputType="date"
+            android:maxLength="2"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:text="월"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <View
+            android:layout_width="21dp"
+            android:layout_height="48dp" />
+        <EditText
+            android:id="@+id/day_input"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:inputType="date"
+            android:maxLength="2"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:text="일"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="106dp" />
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:max="6"
+        android:progress="3" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp">
+
+        <View
+            android:layout_width="52dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/next_button"
+            android:layout_width="301dp"
+            android:layout_height="125dp"
+            android:gravity="center"
+            android:text="다음 단계로"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+
+        <View
+            android:layout_width="52dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</LinearLayout>

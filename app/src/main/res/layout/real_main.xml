@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backg"
+    tools:context=".MainActivity2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line">
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="141dp"
+            android:src="@drawable/logo"
+            />
+
+        <RelativeLayout
+            android:layout_width="272dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tmp_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:fontFamily="@font/font1"
+                android:text="전주시 OO구    ㅇㅇㅇ씨"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/font1"
+                android:layout_alignBottom="@+id/tmp_1"
+                android:layout_marginBottom="-53dp"
+                android:gravity="center"
+                android:text="현재날씨/기온    미세먼지"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/tmp_1"
+                android:fontFamily="@font/font1"
+                android:layout_marginBottom="-95dp"
+                android:gravity="center"
+                android:text="    18도              매우 좋음"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="119dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/singo_button"
+            android:layout_width="172dp"
+            android:layout_height="155dp"
+            android:src="@drawable/oneonenine" />
+
+        <View
+            android:layout_width="116dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="194dp">
+
+        <Button
+            android:id="@+id/lt_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="방송듣기"
+            android:fontFamily="@font/font1"
+            android:background="#00ff0000"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <RelativeLayout
+            android:layout_width="206dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:fontFamily="@font/font1"
+                android:id="@+id/ge_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:background="#00ff0000"
+                android:text=" 게시판  "
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+
+            <Button
+                android:fontFamily="@font/font1"
+                android:id="@+id/gong_button"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:background="#00ff0000"
+                android:text="공지사항"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:fontFamily="@font/font1"
+                android:id="@+id/gun_button"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_alignBottom="@id/gong_button"
+                android:layout_marginBottom="-98dp"
+                android:background="#00ff0000"
+                android:text="건의사항"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="194dp">
+
+        <Button
+            android:fontFamily="@font/font1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="전주도령"
+            android:background="#00ff0000"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <Button
+            android:fontFamily="@font/font1"
+            android:id="@+id/setting_button"
+            android:background="#00ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="194dp"
+            android:layout_weight="1"
+            android:text="   설정   "
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+    </LinearLayout>
+</LinearLayout>

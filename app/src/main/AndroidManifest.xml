@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test30">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test30">
+        <activity android:name="SubActivity"/>
+        <activity android:name="AnounceActivity"/>
+        <activity android:name="MainActivity2"/>
+        <activity android:name="GuneActivity"/>
+        <activity android:name="SettingActivity"/>
+        <activity android:name="CreateIdActivity"/>
+        <activity android:name="CreateIdActivity1"/>
+        <activity android:name="CreateIdActivity2"/>
+        <activity android:name="CreateIdActivity3"/>
+        <activity android:name="GongjiSubActivity"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backg"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/line">
+        <TextView
+            android:id="@+id/back_button"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:text="뒤로가기"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:text="게시판"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="128dp"
+            android:layout_height="33dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="공지사항"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/year_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2022년"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="477dp"
+        android:background="@drawable/line">
+
+        <Button
+            android:id="@+id/left_button"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/coding_leftbutton"
+            android:background="#00FFFFFF"/>
+
+        <RelativeLayout
+            android:layout_width="257dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/onebutton"
+                android:layout_width="match_parent"
+                android:layout_height="19dp" />
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:layout_below="@id/onebutton"
+                android:layout_marginTop="56dp"
+                android:text="\n\n3월 31일"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/right_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/coding_rightbutton"
+            android:background="#00FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>
