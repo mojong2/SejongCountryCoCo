@@ -85,7 +85,7 @@
                 android:layout_height="340dp"
                 android:layout_below="@id/onebutton"
                 android:layout_marginTop="56dp"
-                android:text="\n\n3월 31일"
+                android:text="\n\n"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="50dp"

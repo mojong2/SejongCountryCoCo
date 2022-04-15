@@ -54,13 +54,13 @@
             android:id="@+id/size_small_button"
             android:layout_width="57dp"
             android:layout_height="match_parent"
-            android:background="@color/purple_500"
+            android:background="#00FFFFFF"
             android:drawableBottom="@drawable/coding_mbutton" />
         <TextView
             android:id="@+id/date1_text"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:text="작성일자 : 2022.03.29"
+            android:text="작성일자 : "
             android:textColor="@color/black"
             android:textSize="25dp" />
 
@@ -100,6 +100,7 @@
             android:layout_height="match_parent" />
 
         <Button
+            android:id="@+id/Sound_button"
             android:layout_width="96dp"
             android:layout_height="match_parent"
             android:background="#00FFFFFF"

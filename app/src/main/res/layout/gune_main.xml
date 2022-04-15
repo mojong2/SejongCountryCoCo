@@ -54,7 +54,7 @@
             android:id="@+id/size_small_button"
             android:layout_width="57dp"
             android:layout_height="match_parent"
-            android:background="@color/purple_500"
+            android:background="#00FFFFFF"
             android:drawableBottom="@drawable/coding_mbutton" />
         <TextView
             android:layout_width="wrap_content"
@@ -94,10 +94,20 @@
         >
 
         <View
-            android:layout_width="118dp"
+            android:layout_width="48dp"
             android:layout_height="match_parent" />
-
         <Button
+            android:id="@+id/Sound_button"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/speaker_button" />
+
+        <View
+            android:layout_width="69dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/regis_button"
             android:layout_width="180dp"
             android:layout_height="match_parent"
             android:background="#00FFFFFF"

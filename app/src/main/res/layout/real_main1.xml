@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="119dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/singo_button"
+            android:layout_width="172dp"
+            android:layout_height="155dp"
+            android:src="@drawable/login_logo" />
+
+        <View
+            android:layout_width="116dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="177dp"
+        android:layout_gravity="center"
+        android:layout_height="177dp"
+        android:background="@drawable/oneonenine"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="545dp"
+            android:background="@drawable/main_menu" />
+
+        <Button
+            android:id="@+id/lt_button"
+            android:layout_width="206dp"
+            android:layout_height="198dp"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:fontFamily="@font/font1"
+            android:text="방송듣기"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <RelativeLayout
+            android:id="@+id/tmp_1"
+            android:layout_width="206dp"
+            android:layout_height="198dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_toRightOf="@id/lt_button">
+
+            <Button
+                android:id="@+id/ge_button"
+                android:layout_width="206dp"
+                android:layout_height="198dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:background="#00ff0000"
+                android:fontFamily="@font/font1"
+                android:text=" 게시판  "
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/gong_button"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/font1"
+                android:text="공지사항"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/gun_button"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:layout_alignBottom="@id/gong_button"
+                android:layout_marginBottom="-98dp"
+                android:background="#00ff0000"
+                android:fontFamily="@font/font1"
+                android:text="건의사항"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Chatbot_button"
+            android:layout_width="205dp"
+            android:layout_height="198dp"
+            android:layout_below="@+id/lt_button"
+            android:layout_="@id/Chatbot_button"
+            android:layout_alignBottom="@id/lt_button"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="-200dp"
+            android:background="#00ff0000"
+            android:fontFamily="@font/font1"
+            android:text="전주도령"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/setting_button"
+            android:layout_width="205dp"
+            android:layout_height="198dp"
+            android:layout_alignBottom="@id/tmp_1"
+            android:layout_toRightOf="@id/Chatbot_button"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="-201dp"
+            android:background="#00ff0000"
+            android:fontFamily="@font/font1"
+            android:text="   설정   "
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

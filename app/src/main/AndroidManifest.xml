@@ -12,17 +12,17 @@
         android:theme="@style/Theme.Test30">
         <activity android:name="SubActivity"/>
         <activity android:name="AnounceActivity"/>
-        <activity android:name="MainActivity2"/>
+        <activity android:name="MainActivity"/>
         <activity android:name="GuneActivity"/>
         <activity android:name="SettingActivity"/>
         <activity android:name="CreateIdActivity"/>
-        <activity android:name="CreateIdActivity1"/>
-        <activity android:name="CreateIdActivity2"/>
-        <activity android:name="CreateIdActivity3"/>
         <activity android:name="GongjiSubActivity"/>
+        <activity android:name="FindIdActivity"/>
+        <activity android:name="FindPwActivity"/>
+        <activity android:name="MainActivity2"/>
 
         <activity
-            android:name=".MainActivity"
+            android:name=".StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
